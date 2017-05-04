@@ -1,0 +1,137 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+/* Format Scrolling Boxes */
+.box {
+	width: 100%;
+	height: 1200px;
+}
+#one {
+	background-color: blue;
+}
+#two {
+	background: red;
+}
+#three {
+	background: yellow;
+}
+#four {
+	background: green;
+}
+/* Format Navigation */
+.navbar{
+	 border-bottom: none;
+}
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+	margin: 0px;
+	padding-top: 20px;
+	/* Move navbar left 20ox */
+	position: relative;
+	left: -50px;
+}
+/*Format color of link text */
+.navbar .navbar-nav li a {
+	color: black;
+	font-size: 18px;
+	font-family: Futura, Times new roman;
+}
+.navbar .navbar-nav li a:hover {
+	color: white;
+}
+/*
+.navbar .navbar-nav li a:visited {
+	color: black;
+}*/
+.navbar .navbar-nav li a:active {
+	color: black;
+}
+.navbar .navbar-collapse {
+    text-align: center;
+
+}
+
+/* Format Navbar Logo */
+#link img {
+	width: 100px;
+	height: auto;
+}
+body .navbar {
+	background: none;
+}
+/* Active now class for navbar */
+.nav-down.container-fluid ul li .active-now{
+	color: white;
+	border-bottom: solid 2px white;
+	padding-bottom: 20px;
+}
+.nav-down.container-fluid ul li a {
+	color: grey;
+}
+.nav-down {
+	color: gray;
+	top: 0px;
+	position: fixed;
+	transition: top 0.5s ease-in-out;
+	-webkit-transition: top 0.5s ease-in-out;
+	-moz-transition: top 0.5s ease-in-out;
+	-ms-transition: top 0.5s ease-in-out;
+	-o-transition: top 0.5s ease-in-out;
+	width: 100%;
+	background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.3));
+	background: -webkit-linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.3));
+	background: -moz-linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.3));
+	border-bottom: solid 1px rgba(0,0,0,0.5);
+	height: 78px;
+}
+/* Need grey text on nav-down */
+.nav-up {
+	position: fixed;
+	top: -10px;
+	transition: top 0.5s ease-in-out;
+	-webkit-transition: top 0.5s ease-in-out;
+	-moz-transition: top 0.5s ease-in-out;
+	-ms-transition: top 0.5s ease-in-out;
+	-o-transition: top 0.5s ease-in-out;
+	width: 100%;
+	background: none;
+	border-bottom: none;
+}
+.nav-up #LinkedIn-profile img{
+	width: 50px;
+	height: 50px;
+	transition: top 0.5s ease-in-out;
+	-webkit-transition: top 0.5s ease-in-out;
+	-moz-transition: top 0.5s ease-in-out;
+	-ms-transition: top 0.5s ease-in-out;
+	-o-transition: top 0.5s ease-in-out;
+	top: -60px;
+}
+
+/* LinkedIn Navigation Link */
+#LinkedIn-profile img{
+	width: 50px;
+	height: 50px;
+	float: right;
+	margin-top: 10px;
+	margin-right: 25px;
+	position: relative;
+	top: -77px;
+	border-radius: 40px;
+	-moz-border-radius: 40px;
+	-webkit-border-radius: 40px;
+	border: solid 1px black;
+}
+
+/* Collapsable navigation */
+#myNavbar {
+	border-top: none;
+}
+/* Edit Hamburger */
+.container-fluid button {
+	position: relative;
+	top: 15px;
+}
